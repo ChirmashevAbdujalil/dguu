@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/Softs/Certificate=True", "destination": "/index.html" },
+    { "source": "/Softs/Certificate=True/", "destination": "/index.html" }
+  ]
+}
