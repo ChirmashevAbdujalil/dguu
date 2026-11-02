@@ -14,7 +14,7 @@
     event.preventDefault();
 
     var url = img.currentSrc || img.src;
-    var fileName = button.getAttribute("download") || "certificate.webp";
+    var fileName = button.getAttribute("download") || "rasm.png";
 
     fetch(url)
       .then(function (response) {
